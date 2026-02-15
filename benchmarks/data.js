@@ -1,1165 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771043401365,
+  "lastUpdate": 1771177281357,
   "repoUrl": "https://github.com/EnzymeAD/Reactant.jl",
   "entries": {
     "Reactant.jl Benchmarks": [
-      {
-        "commit": {
-          "author": {
-            "name": "Avik Pal",
-            "username": "avik-pal",
-            "email": "avikpal@mit.edu"
-          },
-          "committer": {
-            "name": "GitHub",
-            "username": "web-flow",
-            "email": "noreply@github.com"
-          },
-          "id": "7ed9fa4c25e96f597990bb6a0470b851b4a080f4",
-          "message": "feat: builtin profiler in the terminal (#2036)\n\n* feat: builtin profiler in the terminal\n\n* test: avoid windows\n\n* Update test/profiling.jl\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* docs: add how its printed\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-          "timestamp": "2025-12-27T23:53:59Z",
-          "url": "https://github.com/EnzymeAD/Reactant.jl/commit/7ed9fa4c25e96f597990bb6a0470b851b4a080f4"
-        },
-        "date": 1766894408540,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisablePadAll",
-            "value": 0.004878292,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherAll",
-            "value": 0.005030839,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.004818583,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.004950102,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherBeforeEnzyme",
-            "value": 0.005008489,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/CPU/Default",
-            "value": 0.014291272,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultAll",
-            "value": 0.005393676,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherPadAll",
-            "value": 0.186190755,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/Julia",
-            "value": 5.353680263,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisablePadAfterEnzyme",
-            "value": 0.005045825,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/Default",
-            "value": 0.051880024,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherPadAll",
-            "value": 0.005177309,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/CPU/Default",
-            "value": 0.331408198,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/CPU/Default",
-            "value": 0.009654512,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/Default",
-            "value": 0.001540098,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/DisableScatterGatherPad",
-            "value": 0.001455534,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherAfterEnzyme",
-            "value": 0.004778496,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/CPU/StructuredTensors",
-            "value": 0.012240227,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/NoOpt",
-            "value": 0.001841412,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/DisablePad",
-            "value": 0.081151913,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherBeforeEnzyme",
-            "value": 0.171138451,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/DisableScatterGather",
-            "value": 0.001359949,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.004868233,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisablePadAfterEnzyme",
-            "value": 0.183330148,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultBeforeEnzyme",
-            "value": 0.170250008,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/CPU/Julia",
-            "value": 0.020589605,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/CPU/Julia",
-            "value": 0.0058210020000000005,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisablePadBeforeEnzyme",
-            "value": 0.005063185,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultBeforeEnzyme",
-            "value": 0.004999287,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/DisableTransposeReshape",
-            "value": 0.001326325,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultAfterEnzyme",
-            "value": 0.183568781,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/CPU/StructuredTensors",
-            "value": 0.609006319,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.172437331,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/DisablePad",
-            "value": 0.001359949,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/Julia",
-            "value": 0.09626957000000001,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableTransposeReshapeAll",
-            "value": 0.004988976,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/DisableScatterGatherPad",
-            "value": 0.083531961,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/CPU/Julia",
-            "value": 0.523299091,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherAll",
-            "value": 0.184941513,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/StructuredTensors",
-            "value": 3.808376465,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/NoOpt",
-            "value": 0.17320179,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.184735044,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/NoOpt",
-            "value": 0.081206842,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultAll",
-            "value": 0.181628571,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.17304014,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/DisableTransposeReshape",
-            "value": 0.081329233,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisablePadAll",
-            "value": 0.186054418,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherAfterEnzyme",
-            "value": 0.181788762,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.186627157,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/StructuredTensors",
-            "value": 0.108533243,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisablePadBeforeEnzyme",
-            "value": 0.172844113,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DisableTransposeReshapeAll",
-            "value": 0.183189865,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/DisableScatterGather",
-            "value": 0.083831628,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultAfterEnzyme",
-            "value": 0.004966386,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CPU/Default",
-            "value": 0.082384644,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/NoOpt",
-            "value": 0.004954962,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/CPU/StructuredTensors",
-            "value": 0.028044229,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.004624824,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/Default",
-            "value": 2.354614525,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/Default",
-            "value": 0.001113973,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisablePadBeforeEnzyme",
-            "value": 0.000622914,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/DisableTransposeReshape",
-            "value": 0.001121842,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherAfterEnzyme",
-            "value": 0.003183755,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/DisableScatterGather",
-            "value": 0.004213519,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisablePadAfterEnzyme",
-            "value": 0.000603606,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.007140289,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisablePadAfterEnzyme",
-            "value": 0.007159669,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/DisableScatterGather",
-            "value": 0.00191221,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.003344576,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultAll",
-            "value": 0.003151702,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/CUDA/StructuredTensors",
-            "value": 0.001497024,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.000610492,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableTransposeReshapeAll",
-            "value": 0.003297223,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/DisablePad",
-            "value": 0.001083686,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/Default",
-            "value": 0.0019212,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisablePadAll",
-            "value": 0.003129918,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherBeforeEnzyme",
-            "value": 0.003182914,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.003156384,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherBeforeEnzyme",
-            "value": 0.000623234,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.003296626,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherAll",
-            "value": 0.007129623,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/DisablePad",
-            "value": 0.002929007,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/Default",
-            "value": 0.002895656,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/NoOpt",
-            "value": 0.011946278,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultAll",
-            "value": 0.000635586,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisablePadAll",
-            "value": 0.007127411,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherPadAll",
-            "value": 0.00312856,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/Default",
-            "value": 0.000242546,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/NoOpt",
-            "value": 0.003389474,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultAfterEnzyme",
-            "value": 0.007140523,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/DisableTransposeReshape",
-            "value": 0.001917802,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultBeforeEnzyme",
-            "value": 0.007198943,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherBeforeEnzyme",
-            "value": 0.007197291,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/DisablePad",
-            "value": 0.000248037,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/DisableScatterGather",
-            "value": 0.00110116,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultAfterEnzyme",
-            "value": 0.003176998,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/CUDA/Default",
-            "value": 0.001938952,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.000613839,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherPadAll",
-            "value": 0.000616218,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherAfterEnzyme",
-            "value": 0.007135731,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultAll",
-            "value": 0.007124484,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherPadAll",
-            "value": 0.007146256,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.007151766,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/NoOpt",
-            "value": 0.007230444,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/NoOpt",
-            "value": 0.000233682,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.007217598,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/DisableTransposeReshape",
-            "value": 0.000224706,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherAfterEnzyme",
-            "value": 0.000601333,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisablePadAll",
-            "value": 0.000622547,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.000594719,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/CUDA/StructuredTensors",
-            "value": 0.110627107,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/CUDA/StructuredTensors",
-            "value": 0.002403627,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisablePadAfterEnzyme",
-            "value": 0.00316598,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/NoOpt",
-            "value": 0.001163646,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/DisablePad",
-            "value": 0.001915934,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.007193626,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.000601727,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisablePadBeforeEnzyme",
-            "value": 0.00719583,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/CUDA/Default",
-            "value": 0.040307234,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/NoOpt",
-            "value": 0.001956721,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/CUDA/StructuredTensors",
-            "value": 0.022668665,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/DisableTransposeReshape",
-            "value": 0.002816425,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/NoOpt",
-            "value": 0.00076458,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultBeforeEnzyme",
-            "value": 0.000624249,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/CUDA/StructuredTensors",
-            "value": 0.006851656,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisablePadBeforeEnzyme",
-            "value": 0.003156135,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/NoOpt",
-            "value": 0.003193082,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/DisableScatterGatherPad",
-            "value": 0.001913297,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultBeforeEnzyme",
-            "value": 0.003153214,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableTransposeReshapeAll",
-            "value": 0.000610137,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/CUDA/Default",
-            "value": 0.000609667,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/CUDA/Default",
-            "value": 0.008288561,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DisableTransposeReshapeAll",
-            "value": 0.007133176,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DefaultAll",
-            "value": 0.011914178,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/CUDA/Default",
-            "value": 0.000841427,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/CUDA/DisableScatterGatherPad",
-            "value": 0.001075378,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.003176719,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DisableScatterGatherAll",
-            "value": 0.000642591,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultAfterEnzyme",
-            "value": 0.000607298,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/DisableScatterGatherPad",
-            "value": 0.000241435,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/DisableScatterGather",
-            "value": 0.000244255,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DisableScatterGatherAll",
-            "value": 0.003337372,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/DisableScatterGatherPad",
-            "value": 0.00294219,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.002987723,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/TPU/StructuredTensors",
-            "value": 0.021049524,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableTransposeReshapeAll",
-            "value": 0.002985817,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/NoOpt",
-            "value": 0.000587774,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/DisableScatterGatherPad",
-            "value": 0.000006087,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/Default",
-            "value": 0.000217814,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/NoOpt",
-            "value": 0.00000635,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherBeforeEnzyme",
-            "value": 0.003100312,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/DisableScatterGather",
-            "value": 0.000953047,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisablePadAll",
-            "value": 0.004180335,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultAll",
-            "value": 0.003100498,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/DisableTransposeReshape",
-            "value": 0.000006153,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.003100331,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/DisableTransposeReshape",
-            "value": 0.000985187,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/NoOpt",
-            "value": 0.001138353,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.000027408,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/DisableTransposeReshape",
-            "value": 0.000929192,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/TPU/Default",
-            "value": 0.001523644,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.004179742,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/DisableScatterGather",
-            "value": 0.00000617,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisablePadAfterEnzyme",
-            "value": 0.004180924,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/Default",
-            "value": 0.000952953,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.002985269,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/NoOpt",
-            "value": 0.004054729,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/NoOpt",
-            "value": 0.002021659,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultBeforeEnzyme",
-            "value": 0.00418317,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/Default",
-            "value": 0.000006114,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherBeforeEnzyme",
-            "value": 0.004182127,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisablePadBeforeEnzyme",
-            "value": 0.000027442,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableTransposeReshapeAll",
-            "value": 0.004181673,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherAfterEnzyme",
-            "value": 0.000027395,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableTransposeReshapeAll",
-            "value": 0.000027541,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/DisablePad",
-            "value": 0.000929114,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/DisableScatterGather",
-            "value": 0.000217794,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultAfterEnzyme",
-            "value": 0.003084902,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/TPU/Default",
-            "value": 0.000017387,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherPadAll",
-            "value": 0.000027504,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/DisableScatterGather",
-            "value": 0.000929837,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.000027469,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [2048 x 2048]/primal/TPU/StructuredTensors",
-            "value": 0.001540351,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisablePadAll",
-            "value": 0.000027293,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.000027452,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/TPU/Default",
-            "value": 0.000038247,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/DisableScatterGatherPad",
-            "value": 0.00092974,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/DisableScatterGatherPad",
-            "value": 0.000217672,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisablePadAll",
-            "value": 0.003106967,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/DisableScatterGatherPad",
-            "value": 0.000952894,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherAfterEnzyme",
-            "value": 0.004180308,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableTransposeReshapeBeforeEnzyme",
-            "value": 0.000027387,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisablePadAfterEnzyme",
-            "value": 0.000027431,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.003085231,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/NoOpt",
-            "value": 0.000867133,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/TPU/StructuredTensors",
-            "value": 0.000208446,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/NoOpt",
-            "value": 0.002959892,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [1024 x 1024]/primal/TPU/Default",
-            "value": 0.000207701,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherPadBeforeEnzyme",
-            "value": 0.004181336,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherPadAfterEnzyme",
-            "value": 0.004180049,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisablePadBeforeEnzyme",
-            "value": 0.003099685,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherPadAll",
-            "value": 0.003093153,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherAll",
-            "value": 0.004180408,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [512 x 512]/primal/TPU/StructuredTensors",
-            "value": 0.000039046,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/Default",
-            "value": 0.000929739,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultBeforeEnzyme",
-            "value": 0.00309991,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/DisablePad",
-            "value": 0.000006123,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableTransposeReshapeAfterEnzyme",
-            "value": 0.004180992,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultBeforeEnzyme",
-            "value": 0.000027443,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherBeforeEnzyme",
-            "value": 0.000027497,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [4096 x 4096]/primal/TPU/Default",
-            "value": 0.021098604,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherAll",
-            "value": 0.003093286,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultAfterEnzyme",
-            "value": 0.004180767,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/primal/TPU/DisablePad",
-            "value": 0.000953085,
-            "unit": "s"
-          },
-          {
-            "name": "NewtonSchulz [256 x 256]/primal/TPU/StructuredTensors",
-            "value": 0.000018245,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisableScatterGatherPadAll",
-            "value": 0.004180804,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DefaultAll",
-            "value": 0.001699035,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DisableScatterGatherAll",
-            "value": 0.000027387,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultAfterEnzyme",
-            "value": 0.000027458,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DisablePadBeforeEnzyme",
-            "value": 0.00418042,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/DisableTransposeReshape",
-            "value": 0.000215775,
-            "unit": "s"
-          },
-          {
-            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/DisablePad",
-            "value": 0.000217924,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisablePadAfterEnzyme",
-            "value": 0.003085357,
-            "unit": "s"
-          },
-          {
-            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultAll",
-            "value": 0.00418135,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/NoOpt",
-            "value": 0.0000276,
-            "unit": "s"
-          },
-          {
-            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultAll",
-            "value": 0.000027476,
-            "unit": "s"
-          },
-          {
-            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DisableScatterGatherAfterEnzyme",
-            "value": 0.003085321,
-            "unit": "s"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -68349,6 +67192,1608 @@ window.BENCHMARK_DATA = {
           {
             "name": "correlation [2048, 2048]/primal/TPU/Default",
             "value": 0.000055668,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "enzymead-bot[bot]",
+            "username": "enzymead-bot[bot]",
+            "email": "238314553+enzymead-bot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "578e2a400c7404552b285b89976d221aa6dd0c8c",
+          "message": "Update EnzymeAD/Enzyme-JAX to commit 1b3c4cf0130ba0ebdceb3c0e804ba14963ab856d (#2456)\n\nDiff: https://github.com/EnzymeAD/Enzyme-JAX/compare/d4b6cbe06f21ec3479741a2c44beb601ea54983c...1b3c4cf0130ba0ebdceb3c0e804ba14963ab856d\n\nCo-authored-by: enzymead-bot[bot] <238314553+enzymead-bot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-02-15T17:29:47Z",
+          "url": "https://github.com/EnzymeAD/Reactant.jl/commit/578e2a400c7404552b285b89976d221aa6dd0c8c"
+        },
+        "date": 1771177263855,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float64]/reverse/CPU/Default",
+            "value": 0.01246142,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float64]/primal/CPU/Default",
+            "value": 0.002697371,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float64]/reverse/CPU/Default",
+            "value": 0.013601257,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float64]/reverse/CPU/Default",
+            "value": 0.015331266,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float64]/primal/CPU/Default",
+            "value": 0.002830829,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float64]/primal/CPU/Default",
+            "value": 0.002606329,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CPU/Julia",
+            "value": 0.044328194,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/Default",
+            "value": 2.450780167,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/Julia",
+            "value": 0.12432880500000001,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CPU/Default_Checkpointing",
+            "value": 0.029180109,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/StructuredTensors",
+            "value": 0.233354457,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CPU/Julia",
+            "value": 0.277152628,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CPU/Default_Checkpointing",
+            "value": 0.146533695,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CPU/Julia",
+            "value": 0.006014455,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CPU/Julia",
+            "value": 0.00704379,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CPU/StructuredTensors (Only Detection)",
+            "value": 0.01038958,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CPU/Default",
+            "value": 0.011343648,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/Default",
+            "value": 0.060703894,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/StructuredTensors (Only Detection)",
+            "value": 5.831764151,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/StructuredTensors",
+            "value": 7.656120674,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CPU/Default",
+            "value": 0.007879102,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CPU/Default_Checkpointing",
+            "value": 0.021259655,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CPU/Default_NoBatching",
+            "value": 0.172828314,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CPU/Default_NoBatching_Checkpointing",
+            "value": 0.599628095,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CPU/Default",
+            "value": 0.071565962,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CPU/Default_NoBatching_Checkpointing",
+            "value": 0.296339031,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CPU/StructuredTensors",
+            "value": 0.012220026,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CPU/Julia",
+            "value": 4.565695836000001,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CPU/StructuredTensors (Only Detection)",
+            "value": 0.174699756,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CPU/Default",
+            "value": 0.137215452,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CPU/Default_Checkpointing",
+            "value": 0.290802602,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CPU/Default",
+            "value": 0.013839767,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CPU/Default_NoBatching",
+            "value": 0.029631318,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CPU/Default_NoBatching_Checkpointing",
+            "value": 0.053836407,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CPU/Julia",
+            "value": 0.566546126,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CPU/Default_NoBatching",
+            "value": 0.013123704,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CPU/Default_NoBatching_Checkpointing",
+            "value": 0.033900496,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CPU/Default_NoBatching",
+            "value": 0.34909523,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DefaultAfterEnzyme",
+            "value": 0.445048788,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CPU/NoOpt",
+            "value": 0.100112297,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/NoOpt",
+            "value": 0.005162881,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultAfterEnzyme",
+            "value": 0.188635242,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DefaultAll",
+            "value": 0.391810414,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DisableTransposeReshapeAll",
+            "value": 0.446937874,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/Default",
+            "value": 0.001931466,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DefaultBeforeEnzyme",
+            "value": 0.61920939,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultAll",
+            "value": 0.00592536,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/NoOpt",
+            "value": 0.465973163,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CPU/NoOpt",
+            "value": 0.170562754,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DisableTransposeReshapeAfterEnzyme",
+            "value": 0.45262551,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CPU/Default",
+            "value": 0.088423094,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/CPU/NoOpt",
+            "value": 0.082175666,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CPU/DisableTransposeReshape",
+            "value": 0.099041075,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultBeforeEnzyme",
+            "value": 0.176203798,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultAfterEnzyme",
+            "value": 0.005217374,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/CPU/Default",
+            "value": 0.080920189,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CPU/DefaultAll",
+            "value": 0.189907919,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CPU/DisableTransposeReshapeBeforeEnzyme",
+            "value": 0.451699838,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CPU/DefaultBeforeEnzyme",
+            "value": 0.005298664,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/CPU/NoOpt",
+            "value": 0.002280494,
+            "unit": "s"
+          },
+          {
+            "name": "Oceananigans/DifferentiateTracerError/CPU/Reverse",
+            "value": 4.74038699,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/CPU/Default_manual_vectorized",
+            "value": 0.626284818,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/CPU/Default_manual_vectorized",
+            "value": 0.064902304,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/CPU/Default_manual_vectorized",
+            "value": 0.000819406,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.000478013,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/CPU/Default",
+            "value": 0.025433196,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/CPU/Julia",
+            "value": 39.605352455,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.023618428,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/CPU/Default_manual_vectorized",
+            "value": 0.077297338,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/CPU/Default",
+            "value": 0.018557283,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/CPU/Default",
+            "value": 0.114936197,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/CPU/Julia",
+            "value": 0.07185332300000001,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/CPU/Default_manual_vectorized",
+            "value": 0.007060725,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.036278174,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/CPU/Julia",
+            "value": 0.029746431,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.00978265,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/CPU/Default",
+            "value": 0.037607216,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/CPU/Julia",
+            "value": 22.952925212,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/CPU/Default",
+            "value": 0.000503057,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.048167029,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/CPU/Default",
+            "value": 0.007173538,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/CPU/Default",
+            "value": 0.726378057,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/CPU/Default_manual_vectorized",
+            "value": 0.707226596,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.009648614,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/CPU/Julia",
+            "value": 62.334590662000004,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/CPU/Default_manual_vectorized",
+            "value": 0.008208658,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/CPU/Default",
+            "value": 0.003434885,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/CPU/Julia",
+            "value": 0.045095364000000006,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/CPU/Julia",
+            "value": 0.36214093,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/CPU/Default",
+            "value": 0.00709945,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/CPU/Julia",
+            "value": 1.8122010910000002,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/CPU/Julia",
+            "value": 26.484457229,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/CPU/Default",
+            "value": 0.017457758,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/CPU/Julia",
+            "value": 0.0005619640000000001,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/CPU/Julia",
+            "value": 0.144102172,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/CPU/Default",
+            "value": 0.000812027,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/CPU/Julia",
+            "value": 355.88623442700003,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/CPU/Default",
+            "value": 0.002277113,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/CPU/Default",
+            "value": 0.680557142,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/CPU/Julia",
+            "value": 279.919065924,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/CPU/Default",
+            "value": 1.051540398,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/CPU/Default_manual_vectorized",
+            "value": 0.937638735,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/CPU/Julia",
+            "value": 23.005937164000002,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/CPU/Default_manual_vectorized",
+            "value": 0.019625982,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/CPU/Julia",
+            "value": 15.391786638000001,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/CPU/Julia",
+            "value": 45.466771407,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/CPU/Julia",
+            "value": 7.571355535,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/CPU/Default",
+            "value": 0.008569866,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/CPU/Default_manual_vectorized",
+            "value": 0.018976622,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/CPU/Default",
+            "value": 0.009516892,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/CPU/Default_manual_vectorized",
+            "value": 0.006629756,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/CPU/Default",
+            "value": 0.018824123,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float64]/primal/CUDA/Default",
+            "value": 0.000291098,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float64]/primal/CUDA/Default",
+            "value": 0.000296989,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float64]/reverse/CUDA/Default",
+            "value": 0.000819486,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float64]/reverse/CUDA/Default",
+            "value": 0.000780267,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float64]/reverse/CUDA/Default",
+            "value": 0.000742064,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float64]/primal/CUDA/Default",
+            "value": 0.000297626,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CUDA/Default",
+            "value": 0.000589361,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CUDA/Default_Checkpointing",
+            "value": 0.145078533,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CUDA/Default_NoBatching",
+            "value": 0.071777393,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CUDA/Default",
+            "value": 0.036075601,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CUDA/Default",
+            "value": 0.001846919,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CUDA/Default",
+            "value": 0.035482063,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CUDA/Default_NoBatching_Checkpointing",
+            "value": 0.252639672,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CUDA/StructuredTensors (Only Detection)",
+            "value": 0.109298644,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CUDA/StructuredTensors",
+            "value": 0.001452163,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CUDA/Default_NoBatching",
+            "value": 0.08014077,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CUDA/StructuredTensors",
+            "value": 0.109729068,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CUDA/Default_Checkpointing",
+            "value": 0.147062755,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/CUDA/Default",
+            "value": 0.043341504,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CUDA/Default",
+            "value": 0.034301092,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/CUDA/StructuredTensors (Only Detection)",
+            "value": 0.001383596,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CUDA/Default_NoBatching_Checkpointing",
+            "value": 0.257222016,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CUDA/Default",
+            "value": 0.034471198,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CUDA/Default_NoBatching",
+            "value": 0.082039542,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CUDA/Default_Checkpointing",
+            "value": 0.144972183,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/CUDA/Default_NoBatching",
+            "value": 0.071118784,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/CUDA/Default_NoBatching_Checkpointing",
+            "value": 0.404495216,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CUDA/StructuredTensors (Only Detection)",
+            "value": 0.005458508,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/CUDA/StructuredTensors",
+            "value": 0.006503745,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/CUDA/Default_Checkpointing",
+            "value": 0.144021082,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/CUDA/Default_NoBatching_Checkpointing",
+            "value": 0.259828607,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/CUDA/Default",
+            "value": 0.001104229,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/NoOpt",
+            "value": 0.010877903,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DisableScatterGatherAll",
+            "value": 0.010593326,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CUDA/Default",
+            "value": 0.000973317,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CUDA/DisableTransposeReshape",
+            "value": 0.001240705,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultAll",
+            "value": 0.00056748,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DisableScatterGatherPadAll",
+            "value": 0.010521859,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultBeforeEnzyme",
+            "value": 0.003189144,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/NoOpt",
+            "value": 0.001930209,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DisableTransposeReshapeAfterEnzyme",
+            "value": 0.003395026,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/Default",
+            "value": 0.000197488,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DisableTransposeReshapeAll",
+            "value": 0.010746015,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/NoOpt",
+            "value": 0.000688529,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DisableTransposeReshapeAll",
+            "value": 0.003342028,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultAfterEnzyme",
+            "value": 0.007076539,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultAll",
+            "value": 0.00314762,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DefaultAll",
+            "value": 0.010745717,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DisableTransposeReshapeBeforeEnzyme",
+            "value": 0.014340105,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/NoOpt",
+            "value": 0.006546933,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/NoOpt",
+            "value": 0.003347813,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/CUDA/NoOpt",
+            "value": 0.001167819,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DefaultBeforeEnzyme",
+            "value": 0.006527422,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultBeforeEnzyme",
+            "value": 0.007125156,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultAfterEnzyme",
+            "value": 0.000570763,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/CUDA/NoOpt",
+            "value": 0.001251089,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/CUDA/DisablePadAll",
+            "value": 0.010516832,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/CUDA/Default",
+            "value": 0.001903122,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/NoOpt",
+            "value": 0.007154958,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/CUDA/NoOpt",
+            "value": 0.000234848,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/CUDA/DefaultAfterEnzyme",
+            "value": 0.003175395,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DefaultAfterEnzyme",
+            "value": 0.003021793,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/NoOpt",
+            "value": 0.003166936,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/CUDA/DefaultAll",
+            "value": 0.003528346,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/CUDA/DefaultAll",
+            "value": 0.007046798,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/CUDA/DefaultBeforeEnzyme",
+            "value": 0.000557166,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/primal/CUDA/Default",
+            "value": 0.002768659,
+            "unit": "s"
+          },
+          {
+            "name": "Oceananigans/DifferentiateTracerError/CUDA/Reverse",
+            "value": 0.168358451,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000468177,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/CUDA/Default",
+            "value": 0.002250448,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000442965,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000058029,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/CUDA/Default",
+            "value": 0.000026349,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/CUDA/Default",
+            "value": 0.000503026,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/CUDA/Default",
+            "value": 0.000106251,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000502334,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000256107,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/CUDA/Default",
+            "value": 0.000045738,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000026672,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000205578,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000267188,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/CUDA/Default",
+            "value": 0.000288305,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/CUDA/Default",
+            "value": 0.000157319,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/CUDA/Default",
+            "value": 0.000054516,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000055626,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.001478567,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/CUDA/Default",
+            "value": 0.000465032,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/CUDA/Default",
+            "value": 0.021848761,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.024859437,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/CUDA/Default",
+            "value": 0.007888037,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.012920537,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/CUDA/Default",
+            "value": 0.000445726,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.029214367,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/CUDA/Default",
+            "value": 0.000110833,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/CUDA/Default",
+            "value": 0.020779209,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/CUDA/Default",
+            "value": 0.000256993,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000259544,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.0001581,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.000111565,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/CUDA/Default",
+            "value": 0.013394795,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/CUDA/Default",
+            "value": 0.028768943,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/CUDA/Default_manual_vectorized",
+            "value": 0.020709233,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float32]/primal/TPU/Default",
+            "value": 0.007647664,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float32]/reverse/TPU/Default",
+            "value": 0.258255951,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 256 x 256 [Float32]/reverse/TPU/Default",
+            "value": 0.258180583,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float32]/primal/TPU/Default",
+            "value": 0.007645838,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 128 x 128 [Float32]/primal/TPU/Default",
+            "value": 0.007646657,
+            "unit": "s"
+          },
+          {
+            "name": "Comrade EHT Imaging 64 x 64 [Float32]/reverse/TPU/Default",
+            "value": 0.258232847,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/TPU/Default_NoBatching_Checkpointing",
+            "value": 0.025324347,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/TPU/StructuredTensors (Only Detection)",
+            "value": 0.024580653,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/TPU/Default",
+            "value": 0.024767678,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/TPU/Default_Checkpointing",
+            "value": 0.003438662,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/TPU/Default",
+            "value": 0.000218465,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/TPU/StructuredTensors",
+            "value": 0.000219893,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/TPU/Default_NoBatching_Checkpointing",
+            "value": 0.019796063,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/TPU/StructuredTensors",
+            "value": 0.00001928,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/TPU/Default_Checkpointing",
+            "value": 0.085359872,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/TPU/Default_NoBatching",
+            "value": 0.047343118,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/TPU/Default",
+            "value": 0.001322649,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/TPU/Default",
+            "value": 0.000694888,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/TPU/Default_Checkpointing",
+            "value": 0.001658,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/TPU/Default",
+            "value": 0.026239822,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [16384 spins]/reverse/TPU/Default_NoBatching_Checkpointing",
+            "value": 0.036014183,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/TPU/Default_NoBatching",
+            "value": 0.033444054,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/TPU/Default_Checkpointing",
+            "value": 0.019415884,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [1024 x 1024]/primal/TPU/StructuredTensors (Only Detection)",
+            "value": 0.000220137,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [1024 spins]/reverse/TPU/Default_NoBatching",
+            "value": 0.00759943,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/TPU/Default_NoBatching",
+            "value": 0.006982951,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/TPU/Default",
+            "value": 0.000018505,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [128 spins]/reverse/TPU/Default_NoBatching_Checkpointing",
+            "value": 0.018097079,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [4096 x 4096]/primal/TPU/StructuredTensors",
+            "value": 0.024595865,
+            "unit": "s"
+          },
+          {
+            "name": "bloch_rf [8192 spins]/reverse/TPU/Default",
+            "value": 0.016541956,
+            "unit": "s"
+          },
+          {
+            "name": "NewtonSchulz [256 x 256]/primal/TPU/StructuredTensors (Only Detection)",
+            "value": 0.000019359,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/NoOpt",
+            "value": 0.004056493,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DefaultBeforeEnzyme",
+            "value": 0.004724269,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultBeforeEnzyme",
+            "value": 0.004181235,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/Default",
+            "value": 0.00000604,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultBeforeEnzyme",
+            "value": 0.000027231,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultAfterEnzyme",
+            "value": 0.004181202,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/Default",
+            "value": 0.000217659,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/NoOpt",
+            "value": 0.002022033,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/NoOpt",
+            "value": 0.005226925,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DisablePadAll",
+            "value": 0.001696828,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultAll",
+            "value": 0.003093662,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DefaultAll",
+            "value": 0.001696665,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DisableScatterGatherPadAll",
+            "value": 0.001696133,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DisableTransposeReshapeAll",
+            "value": 0.005041013,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DefaultAfterEnzyme",
+            "value": 0.004645417,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/TPU/DisableTransposeReshape",
+            "value": 0.002864943,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/primal/TPU/NoOpt",
+            "value": 0.00058692,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/TPU/NoOpt",
+            "value": 0.001136846,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DisableTransposeReshapeAll",
+            "value": 0.001437385,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultAfterEnzyme",
+            "value": 0.000027176,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultAfterEnzyme",
+            "value": 0.003084583,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/TPU/Default",
+            "value": 0.002349184,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/primal/TPU/NoOpt",
+            "value": 0.002867889,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/TPU/NoOpt",
+            "value": 0.002959235,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/primal/TPU/NoOpt",
+            "value": 0.000006229,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DisableTransposeReshapeAfterEnzyme",
+            "value": 0.005153817,
+            "unit": "s"
+          },
+          {
+            "name": "ViT tiny [256, 256, 3, 4]/reverse/TPU/DisableScatterGatherAll",
+            "value": 0.001696905,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/NoOpt",
+            "value": 0.000027269,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DefaultAll",
+            "value": 0.004635586,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/reverse/TPU/DefaultAll",
+            "value": 0.004179322,
+            "unit": "s"
+          },
+          {
+            "name": "DeepONet ([64, 1024], [1, 128])/reverse/TPU/DefaultAll",
+            "value": 0.000027214,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/NoOpt",
+            "value": 0.000861402,
+            "unit": "s"
+          },
+          {
+            "name": "DGCNN [3, 128, 256]/reverse/TPU/DisableTransposeReshapeBeforeEnzyme",
+            "value": 0.005040889,
+            "unit": "s"
+          },
+          {
+            "name": "VGG11 bn=true [224, 224, 3, 4]/primal/TPU/Default",
+            "value": 0.000813819,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/primal/TPU/Default",
+            "value": 0.000952927,
+            "unit": "s"
+          },
+          {
+            "name": "FNO [64, 64, 1, 4]/reverse/TPU/DefaultBeforeEnzyme",
+            "value": 0.003093599,
+            "unit": "s"
+          },
+          {
+            "name": "Oceananigans/DifferentiateTracerError/TPU/Reverse",
+            "value": 0.996073572,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/TPU/Default_manual_vectorized",
+            "value": 0.26175405,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000023474,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/TPU/Default_manual_vectorized",
+            "value": 0.001086796,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/TPU/Default",
+            "value": 0.000087475,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/TPU/Default",
+            "value": 0.000051766,
+            "unit": "s"
+          },
+          {
+            "name": "gesummv [4096]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000087415,
+            "unit": "s"
+          },
+          {
+            "name": "bicg [2048, 4096]/primal/TPU/Default",
+            "value": 0.000023414,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/TPU/Default_manual_vectorized",
+            "value": 0.027117211,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/TPU/Default_manual_vectorized",
+            "value": 0.02207921,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_2d [512, 512, 1024]/primal/TPU/Default",
+            "value": 0.026676134,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/TPU/Default_manual_vectorized",
+            "value": 0.00007261,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/TPU/Default",
+            "value": 0.000016432,
+            "unit": "s"
+          },
+          {
+            "name": "doitgen [256, 1024, 512]/primal/TPU/Default",
+            "value": 0.001585822,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/TPU/Default",
+            "value": 0.000085698,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/TPU/Default",
+            "value": 0.008141663,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.00003112,
+            "unit": "s"
+          },
+          {
+            "name": "gemm [2048, 4096]/primal/TPU/Default",
+            "value": 0.00007231,
+            "unit": "s"
+          },
+          {
+            "name": "syrk [2048]/primal/TPU/Default",
+            "value": 0.000030532,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000053265,
+            "unit": "s"
+          },
+          {
+            "name": "3mm [256, 1024, 2048, 4096]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000016461,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000024185,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/TPU/Default",
+            "value": 0.000045073,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/TPU/Default",
+            "value": 0.000037076,
+            "unit": "s"
+          },
+          {
+            "name": "atax [2048]/primal/TPU/Default",
+            "value": 0.000024108,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000058554,
+            "unit": "s"
+          },
+          {
+            "name": "syr2k [2048]/primal/TPU/Default",
+            "value": 0.000058664,
+            "unit": "s"
+          },
+          {
+            "name": "fdtd_2d [1024, 2048, 256]/primal/TPU/Default",
+            "value": 0.020049843,
+            "unit": "s"
+          },
+          {
+            "name": "mvt [4096]/primal/TPU/Default_manual_vectorized",
+            "value": 0.00004554,
+            "unit": "s"
+          },
+          {
+            "name": "2mm [2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000075038,
+            "unit": "s"
+          },
+          {
+            "name": "covariance [2048, 2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000047602,
+            "unit": "s"
+          },
+          {
+            "name": "heat_3d [128, 128, 128, 256]/primal/TPU/Default",
+            "value": 0.261753784,
+            "unit": "s"
+          },
+          {
+            "name": "jacobi_1d [2048, 1024]/primal/TPU/Default_manual_vectorized",
+            "value": 0.005770288,
+            "unit": "s"
+          },
+          {
+            "name": "gemmver [2048]/primal/TPU/Default_manual_vectorized",
+            "value": 0.000037209,
+            "unit": "s"
+          },
+          {
+            "name": "correlation [2048, 2048]/primal/TPU/Default",
+            "value": 0.000055861,
             "unit": "s"
           }
         ]
